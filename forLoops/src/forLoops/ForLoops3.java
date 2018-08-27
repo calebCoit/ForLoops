@@ -11,8 +11,8 @@ public class ForLoops3
 //				oneThroughFiveHorizontal();
 //				countdown();
 //				challengeOne();
-				challengeTwo();
-//				challengeThree();
+//				challengeTwo();
+				challengeThree();
 //				challengeFour();
 				
 			}
@@ -68,6 +68,14 @@ public class ForLoops3
 				int bottomLimit = userInput2.nextInt();
 				
 				for (int i = bottomLimit; i < TopLimit + 1; i++)
+					{
+					System.out.println(i);
+					}
+			}
+		
+		public static void challengeThree()
+			{
+				for (int i = 1; i < 6; i++)
 					{
 					System.out.println(i);
 					}
